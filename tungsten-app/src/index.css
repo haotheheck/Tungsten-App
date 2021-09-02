@@ -1,0 +1,140 @@
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, Sans-Serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.menu-outer {
+  height: 110px;
+  width:100%;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+ul#horizontal-list {
+	list-style: none;
+  text-align: center;
+  vertical-align: bottom;
+  overflow: hidden;
+  white-space: nowrap;
+	}
+	ul#horizontal-list li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    width:100px;
+  }
+  ul#horizontal-list li:first-of-type{
+/*    margin-right:calc(50px / 20%);*/
+    margin-right:50px;
+  }
+  ul#horizontal-list li:last-of-type{
+/*    margin-left:calc(50px / 20%);
+*/    margin-left:50px;
+
+  }
+  @media screen and (max-width: 400px) {
+
+    ul#horizontal-list li:first-of-type{
+      margin-right:10px;
+    }
+    ul#horizontal-list li:last-of-type{
+      margin-left:10px;
+    }
+  }
+  @media screen and (max-width: 800px){
+    ul#horizontal-list li:first-of-type{
+      margin-right:20px;
+    }
+    ul#horizontal-list li:last-of-type{
+      margin-left:20px;
+    }
+    ul#horizontal-list li {
+      text-align:middle;
+      width: 65px;
+      word-wrap: normal;
+
+    }
+    ul#horizontal-list li button {
+      text-align:middle;
+      width: 100%;
+      white-space: inherit;
+      word-wrap: normal;
+    }
+
+    ul#horizontal-list li button a {
+      text-align:middle;
+      display:inline-block;
+      width: 100%;
+      word-wrap: break-word;
+      white-space:initial;
+    }
+    ul#horizontal-list li button a img {
+      margin: 0 auto;
+      text-align:middle;
+    }
+  }
+  @media screen and (max-width: 800px){
+  }
+  
+
+.width {
+  /*width: 40%;*/
+}
+
+
+.nav-bar {
+  background-color: black;
+}
+
+
+.nav-icon {
+  
+  color: #FFFFFF;
+  background: transparent;
+
+  border: none;
+}
+
+.ingredient-list{
+  width:100%;
+}
+
+button.logout {
+  background-color: rgba(237, 228, 238, 0.781);
+  padding: 0px 11px 0px 11px;
+  font-size: 90%;
+  border-radius: 5%;
+  border-width: 0px;
+  color:rgb(40,40,40);
+  font-weight:400;
+}
+
+.show{
+  opacity: 1;
+}
+
+.hide{
+  opacity: 0;
+}
+
+.inactive{
+  opacity:0.3
+}
+
+.user-status{
+  border:none;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  overflow:hidden;
+}

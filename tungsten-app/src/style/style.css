@@ -1,0 +1,441 @@
+*{
+  /*background-color:black;*/
+}
+html{
+  width:100%;
+  height:100%;
+  text-align:center;
+  vertical-align: middle;
+  margin: 0 auto;
+  background-color:rgb(40,40,40);
+  color: rgb(220,220,220);
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size:16px;
+}
+@media screen and (max-width: 480px){
+  html{
+    font-size:12px;
+  }
+}
+@media screen and (max-width: 640px){
+  html{
+    font-size:14px;
+  }
+}
+
+ul{
+  padding:0;
+  padding-inline-start:0;
+}
+
+button{
+  text-align:center;
+}
+p{
+  margin-top:.5em;
+  margin-bottom:.5em;
+}
+
+hr{
+  border-color: rgb(100,100,100);
+  margin-top:15px;
+  width:70%;
+}
+
+button{
+  color:white;
+  font-size:1em;
+}
+
+h1{
+  color: white;
+  display: inline-block;
+  border-bottom: 1px solid white;
+  margin-top:50px;
+  padding-bottom:5px;
+}
+h3{
+  margin-top:25px;
+  display: inline-block;
+  border-bottom: 1px solid;
+  padding-bottom:4px;
+}
+
+a, a:visited, h2, h3{
+  color:orange;
+}
+a:hover, a:active{
+  color:yellow;
+}
+
+.SearchFormForm input{
+  background: rgb(60,60,60);
+  font-size:1em;
+}
+
+.searchCocktail{
+  width:100%;
+  margin:0 auto;
+}
+
+.ingredient-list button, button.signIn, button.cocktails{
+  border-radius:100%;
+  display:inline-block;
+  width:180px;
+  height:180px;
+  color:white;
+  margin:20px 30px 15px 30px;
+  padding:20px;
+  text-align:center;
+}
+.cocktails .IngredientsList{
+  text-align:center;
+}
+
+.recResultsAll{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.ingredient-list button, button.cocktails{
+  background: transparent;
+  width:120px;
+  text-align:center;
+}
+.ingredient-list button{
+  height:120px;
+}
+@media screen and (min-width: 600px){
+  .ingredient-list button{
+    height:180px;
+    width:180px;
+  }
+
+}
+
+button.cocktails{
+  border: none;
+  margin:0 auto;
+}
+
+.ingredient-list button img, button.cocktails img{
+  margin-bottom:8px;
+  width:75%;
+  height:auto;
+  border-radius: 30px;
+}
+
+button.signIn{
+  border-radius:8px;
+  height: auto;
+  width:auto;
+  padding:8px 13px;
+  color: rgb(100,100,100);
+  border-color:rgba(110,110,110, .25);
+  margin-top:8px;
+  margin-bottom:15px;
+  padding-bottom:7px;
+}
+
+div.boxme{
+  margin-bottom:50px;
+}
+
+.profile-img-card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  margin-bottom: 28px;
+  margin-top:20px;
+  width:100px;
+}
+
+ .modal{
+  
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  right: auto;
+  bottom: auto;
+  min-width: 20%;
+  min-height: 15%;
+  background: rgb(39, 37, 37);
+  transform: translate(50%, -50%);
+  
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(19, 20, 20, 0.4);
+} 
+
+
+.create-link{
+  margin-bottom:50px;
+}
+
+.searchCocktail p{
+  width: 480px;
+  margin-left:auto;
+  margin-right:auto;
+}
+@media screen and (max-width: 600px){
+  .searchCocktail p{
+    width: 240px;
+  }
+}
+
+
+.backButtonSty {
+    border: none;
+    padding: 0px;
+    background: transparent;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align:middle;
+    font-size:90%;
+    color: rgb(180,180,180);
+    margin-bottom:20px;
+    margin-top:10px;
+    border-radius:15px;
+    padding:7px;
+    padding-bottom:4px;
+  }
+.backButtonSty *{
+  vertical-align: middle;
+}
+.backButtonSty img{
+  padding-bottom:2px;
+  width:10px;
+  margin-right:3px;
+}
+.backButtonSty:hover, .backButtonSty:active{
+  color:white;
+  background:rgb(100,100,100);
+}
+
+.grey{
+  font-size: 80%;
+  opacity:0.5;
+}
+
+.ButtonsUseFilters{
+  margin-top:10px;
+}
+
+.body{
+  width:100%;
+/*  height:100%;*/
+  position:absolute;
+}
+
+.pantryPlus{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 64px;
+  border-radius: 50%;
+  margin-top:30px;
+/*  position: fixed;
+  bottom: 10%;
+  right: 60%;*/
+}
+
+.logoDivTop{
+  display:block;
+  position:relative;
+  margin: 0 auto;
+  margin-top:5%;
+}
+
+.logoDivTop img{
+  width:250px;
+  height:250px;
+}
+
+.recipeImage{
+  margin-bottom:36px;
+}
+
+.recipeImage img{
+  margin-top:15px;
+  width:160px;
+  height:auto;
+}
+
+.RecipeViewer{
+  padding-bottom:150px;
+}
+
+img.logoText{
+  margin: 0 auto;
+  width:255px;
+  height:34px;
+  display:block;
+  margin-top:20px;
+  font-size:48px;
+  letter-spacing: 6px;
+  margin-bottom:20px;
+}
+
+.ingredientButtons{
+  border:0;
+  border-radius:100%;
+  margin: 20px;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+button.go,
+button.goclear,
+button.pantryOption {
+  /*transition: background-color linear 0.25s;*/
+  padding: 11px 17px 10px 17px;
+  font-size: 110%;
+  border-radius: 15%;
+  border-width: 4px;
+  background-color:rgb(135, 151, 154);
+  margin-left:10px;
+  margin-right:10px;
+  height:80px;
+  width:120px;
+  color:white;
+  font-weight:600;
+  border-color:rgba(120,130,130,0.5);
+}
+
+@media screen and (max-width:600px){
+  button.go,
+  button.goclear,
+  button.pantryOption {
+    height:60px;
+    width:90px;
+  }
+}
+@media screen and (max-width:360px){
+  button.go,
+  button.goclear,
+  button.pantryOption {
+    height:40px;
+    width:60px;
+  }
+}
+/*button.go {
+  background: rgb(100, 200, 90);
+  margin-right: 35px;
+  font-size: 140%;
+  border-color: rgb(80,180,80);
+}
+button.goclear {
+  background: rgb(200, 80, 80);
+  border-color: rgb(180, 70, 70);
+}*/
+
+
+button.pantryOption {
+  background: url('https://icon-library.com/images/chef-icon-png/chef-icon-png-4.jpg') no-repeat;
+  background-size: cover; 
+/*  width: 70px;*/
+}
+
+
+
+.orange {
+  background-color: rgb(220, 80, 40);
+  border-radius: 10px;
+  border-color: rgb(220, 80, 40);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+
+button.orange:active {
+  background-color: rgb(220, 150, 0);
+}
+
+
+.searchCocktail {
+  padding: 0 0 0 0;
+  text-align: center;
+
+}
+
+.recipeIngList {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+
+
+.ingredient-list {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+/*  min-height: 800px;*/
+  display: inline-block;
+  overflow-y: auto;
+  overflow: auto;
+}
+
+.pantry-header {
+  text-align: center;
+  font-weight: 300;
+  font-size: x-large;
+}
+
+
+.label {
+  width: 100px;
+  display: inline-block;
+  text-align: left;
+}
+
+input[type=text] {
+  padding: 5px;
+  border-radius:3px;
+  border-width: 1px;
+}
+
+input[type=search] {
+  padding: 15px;
+  padding-bottom:14px;
+  width: 250px;
+  height: 40px;
+  border-radius:26px;
+  border-width: 3px;
+  border-style: none;
+  box-shadow:0 0 2px 4px rgba(0,0,0,0.06);
+  
+}
+
+input[type=password] {
+  padding: 5px;
+  border-radius:3px;
+  border-width: 1px;
+
+}
+
+.rounded-input {
+  padding:10px;
+}
+
+*:focus {
+  outline: none;
+}
+
